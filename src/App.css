@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  border: 0;
+  background-color: bisque;
+}
+
+.container {
+  width: 400px;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+.node {
+/* border: 1px solid red; */
+margin: 10px;
+}
+
+.node .folder {
+/* border: 1px solid green; */
+}
+
+.node .folder:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.node .children {
+  margin-left: 20px;
+}
